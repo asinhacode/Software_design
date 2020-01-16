@@ -1,0 +1,19 @@
+class
+    CAKE_CLASS
+
+feature
+    number_of_cake : INTEGER
+    cake_type      : STRING
+    price_range    : REAL 
+
+    order_cake(price : REAL ; favorite : STRING)
+        do
+            ...
+        end
+
+    final_decision : BOOLEAN
+        do
+            RESULT := price_range < 30.0
+        end
+
+end

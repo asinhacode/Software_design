@@ -1,0 +1,13 @@
+class
+    LOCAL_VARIABLE
+
+feature
+        local_variable
+            local
+                my_variable_1 : INTEGER
+                my_variable_2 : STRING
+            
+            do
+                --- some code here
+            end
+end

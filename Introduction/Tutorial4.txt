@@ -1,0 +1,2 @@
+-- Escape Sequence --
+New Line        : \n --> %N 
